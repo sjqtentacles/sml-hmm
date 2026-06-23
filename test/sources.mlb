@@ -1,0 +1,13 @@
+(* Test executable basis: the hmm library (which pulls in the vendored
+   sml-matrix) plus the harness, helpers, and per-feature suites. *)
+$(SML_LIB)/basis/basis.mlb
+
+../src/hmm.mlb
+
+harness.sml
+support.sml
+test_forward_backward.sml
+test_viterbi.sml
+test_baumwelch.sml
+entry.sml
+main.sml

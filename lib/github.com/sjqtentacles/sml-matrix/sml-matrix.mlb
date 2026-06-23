@@ -1,0 +1,6 @@
+(* sml-matrix: public library basis. Brings the MATRIX signature and the
+   Matrix structure (dense real linear algebra) into scope. *)
+
+$(SML_LIB)/basis/basis.mlb
+
+sources.mlb

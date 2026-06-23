@@ -1,0 +1,7 @@
+(* MLB for the examples: the hmm library (which pulls in the vendored
+   sml-matrix) plus the demo program. *)
+$(SML_LIB)/basis/basis.mlb
+
+../src/hmm.mlb
+
+demo.sml

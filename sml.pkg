@@ -1,0 +1,5 @@
+package github.com/sjqtentacles/sml-hmm
+
+require {
+  github.com/sjqtentacles/sml-matrix
+}

@@ -1,0 +1,7 @@
+(* Source files for sml-matrix, in dependency order. Dependency-free:
+   only the Standard ML Basis library is used. *)
+
+$(SML_LIB)/basis/basis.mlb
+
+matrix.sig
+matrix.sml
